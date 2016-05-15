@@ -2,9 +2,9 @@
 
 ThreeSixtyCAS is an open source collision avoidance platform developed to improve site safety.
 
-We are based on an Apache2 license to encourage innovation and open adoption of critical a safety systems
+We are based on an Apache2 license to encourage innovation and open adoption of critical safety systems
 
-360CAS is for Peer to Peer and Peer to Base communication
+360CAS is based on Peer to Peer and Peer to Base communication
 
 The system is composed of a underlying messaging protocol, a vehicle driver situational awareness app and a collision avoidance platform
 
