@@ -7,7 +7,7 @@
  - TimeStamp : ISO 8601 Date Format String
  - TransmitterID : unique INT 64bit
  - Location: Lat/Lon of vehicles current location
- - Location Isotropic Uncertainty: float in meters.
+ - LocationIsotropic Uncertainty: float in meters.
  - VehiclePriority: A unique integer specifying the priority of the vehicle in ties.
  - Loaded: Boolean specifying that the vehicle must be
  - RoutePlan: May be either:
@@ -18,13 +18,13 @@
  - Velocity: [x,y,z] vector of meters/second average velocity over some predefined
              time period. (currently set at 5 seconds). Velocity is defined from
              the front and centre of the vehicle.
- - Vehicle Type: String, indicates the vehicle type of node, a predefined but extensible list of vehicle type codes, e.g.
+ - VehicleType: String, indicates the vehicle type of node, a predefined but extensible list of vehicle type codes, e.g.
    ['DZ', 'LV', 'HV', 'GR', 'PL'] (human version = ['dozer', 'light vehicle', 'heavy vehicle', 'grader', 'personell'])
  - Status: String, a predefined but extensible list of status codes. For example
    ['FP', 'AT', 'OV', 'SL', 'FS' ,'AW'] (human readable versions
     ['following path', 'approaching turn', 'overtaking', 'slow manoeuver's',
     'frequent stopping', 'advance warning'])
- - Priority Interaction List : List of other TransmitterID's,
+ - PriorityInteractionList : List of other TransmitterID's,
       Based upon this nodes most recent recieved messages and calculations
       constructs a list of nodes that must be communicated with to avoid collisions.
 
