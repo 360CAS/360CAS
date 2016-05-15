@@ -1,0 +1,14 @@
+{
+  "MessageID": "21A7B1",
+  "TimeStamp": "2016-05-14T21:40:30+00:00",
+  "TransmitterID": 17622,
+  "Location": [18.54732, -72.38892],
+  "LocationIsotropicUncertainty": 0.2,
+  "VehiclePriority": 7,
+  "Loaded": true,
+  "RoutePlan": "route_21",
+  "Velocity": [1,1, 0.1],
+  "Vehicle Type": "HV",
+  "Status": "FP",
+  "PriorityInteractionList" : [13233, 17821, 9999]
+}
